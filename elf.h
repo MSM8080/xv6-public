@@ -2,6 +2,8 @@
 
 #define ELF_MAGIC 0x464C457FU  // "\x7FELF" in little endian
 
+#include "types.h"
+
 // File header
 struct elfhdr {
   uint magic;  // must equal ELF_MAGIC
